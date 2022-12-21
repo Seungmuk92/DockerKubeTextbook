@@ -12,4 +12,4 @@ services:
       placement:
         constraints: [node.role == manager]
 
-#docker container exec -it manager docker stack deploy -c /visualizer.yml visualizer
+#docker container exec -it manager docker stack deploy -c /stack/visualizer.yml visualizer
